@@ -1,0 +1,44 @@
+.ui-bp-parameter {
+  padding: 2vw;
+  width: 33.33%;
+  border-radius: 15px;
+  text-align: center;
+
+  .indicator {
+    margin-bottom: 1vw;
+  }
+
+  .value {
+    margin-bottom: 0vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 42px;
+    &.green {
+      color: #9bd633;
+    }
+    &.orange {
+      color: #f7743b;
+    }
+    &.blue {
+      color: #449deb;
+    }
+    &.yellow {
+      color: #f5d52f;
+    }
+    &.red {
+      color: #d62455;
+    }
+    &.danger_red {
+      color: #e20707;
+    }
+    &.none {
+      color: #2c2c2c;
+    }
+  }
+
+  .type {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 12px;
+  }
+}

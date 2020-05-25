@@ -1,0 +1,116 @@
+.ui-bp-indicator {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.ui-bp-indicator.green {
+  background: rgba(155, 214, 51, 0.44);
+}
+.ui-bp-indicator.orange {
+  background: rgba(247, 116, 59, 0.44);
+}
+.ui-bp-indicator.blue {
+  background: rgba(68, 157, 235, 0.44);
+}
+.ui-bp-indicator.yellow {
+  background: rgba(245, 213, 47, 0.44);
+}
+.ui-bp-indicator.red {
+  background: rgba(214, 36, 85, 0.44);
+}
+.ui-bp-indicator.danger_red {
+  background: rgba(204, 35, 58, 0.44);
+}
+.ui-bp-indicator.none {
+  background: rgba(88, 88, 88, 0.44);
+}
+
+.ui-bp-indicator_small {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  animation-name: beating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  margin: 0 auto;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  box-sizing: border-box;
+}
+
+.b-green {
+  border: 2px solid #9bd633;
+}
+.b-orange {
+  border: 2px solid #f7743b;
+}
+.b-blue {
+  border: 2px solid #449deb;
+}
+.b-yellow {
+  border: 2px solid #f5d52f;
+}
+.b-red {
+  border: 2px solid #d62455;
+}
+.b-danger_red {
+  border: 2px solid #e20707;
+}
+.b-none {
+  border: 2px solid #2c2c2c;
+}
+
+@keyframes beating {
+  0% {
+    width: 16px;
+    height: 16px;
+  }
+  25% {
+    width: 30px;
+    height: 30px;
+  }
+  51% {
+    width: 16px;
+    height: 16px;
+  }
+  75% {
+    width: 30px;
+    height: 30px;
+  }
+  100% {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@keyframes beating_danger {
+  0% {
+    width: 16px;
+    height: 16px;
+  }
+  20% {
+    width: 30px;
+    height: 30px;
+  }
+  40% {
+    width: 16px;
+    height: 16px;
+  }
+  60% {
+    width: 30px;
+    height: 30px;
+  }
+  80% {
+    width: 16px;
+    height: 16px;
+  }
+  100% {
+    width: 30px;
+    height: 30px;
+  }
+}

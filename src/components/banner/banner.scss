@@ -1,0 +1,99 @@
+.ui-tpt-banner {
+  width: 100%;
+  height: 400px;
+  color: white;
+
+  background: linear-gradient(
+    131.29deg,
+    #03045e 11.63%,
+    rgba(0, 119, 182, 0.88) 90.61%
+  );
+  background-repeat: no-repeat;
+
+  .waves {
+    height: 152px;
+    background: url("./bottom_banner.svg") bottom / 100% auto;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  .person {
+    height: 400px;
+  }
+
+  .person.s1 {
+    background: url("./s1.svg") bottom / 300px auto;
+    background-repeat: no-repeat;
+  }
+
+  .person.s2 {
+    background: url("./s2.svg") bottom / 300px auto;
+    background-repeat: no-repeat;
+  }
+
+  .person.s3 {
+    background: url("./s3.svg") bottom / 300px auto;
+    background-repeat: no-repeat;
+  }
+
+  .person.s4 {
+    background: url("./s4.svg") bottom / 300px auto;
+    background-repeat: no-repeat;
+  }
+
+  .person.s5 {
+    background: url("./s5.svg") bottom / 300px auto;
+    background-repeat: no-repeat;
+  }
+
+  .banner_img {
+    width: 100%;
+    max-height: 230px;
+    position: relative;
+    top: 30%;
+    -ms-transform: translateY(-30%);
+    transform: translateY(-30%);
+  }
+
+  .ui-c {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ui-f.banner {
+    width: 60%;
+  }
+
+  .ui-f.text {
+    width: 40%;
+  }
+
+  .ui-f .text-c {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 700px) {
+  .ui-tpt-banner {
+    .ui-f .text-c {
+      font-size: xx-large;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .ui-tpt-banner {
+    .ui-f .text-c {
+      font-size: large;
+    }
+  }
+}

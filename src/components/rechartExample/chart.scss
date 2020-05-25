@@ -1,0 +1,62 @@
+.ui-bpt-chart_custom_tooltip {
+  padding: 5px;
+  background: rgb(255, 255, 255);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 15px;
+}
+
+.ui-bpt-chart_custom_tooltip .fp {
+  padding: 10px;
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 1px;
+}
+
+.ui-bpt-chart_custom_tooltip .fp.low {
+  background: #449deb;
+}
+
+.ui-bpt-chart_custom_tooltip .fp.normal {
+  background: #70c83d;
+}
+.ui-bpt-chart_custom_tooltip .fp.elevated {
+  background: #f5d52f;
+}
+.ui-bpt-chart_custom_tooltip .fp.hstage1 {
+  background: #f7743b;
+}
+.ui-bpt-chart_custom_tooltip .fp.hstage2 {
+  background: #d62455;
+}
+.ui-bpt-chart_custom_tooltip .fp.hstage3 {
+  background: #e20707;
+}
+
+.ui-bpt-chart_custom_tooltip .fp .title {
+  text-align: center;
+  font-size: 12px;
+}
+
+.ui-bpt-chart_custom_tooltip .fp .lecture {
+  text-align: center;
+  font-size: 36px;
+}
+
+.ui-bpt-chart_custom_tooltip .fp .unit {
+  text-align: right;
+  font-size: 12px;
+}
+
+.ui-bpt-chart_custom_tooltip .pulse {
+  text-align: right;
+}
+
+.ui-bpt-chart_custom_tooltip .lp {
+  padding: 10px;
+  background: #01bace;
+  color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
