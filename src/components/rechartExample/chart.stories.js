@@ -4,7 +4,7 @@ import { areFromSameDay, getOnlyDate, formatDate } from "../../utils/dateUtils";
 import _ from "lodash";
 
 export default {
-  title: "Chartz",
+  title: "Chart",
   component: Chart,
 };
 
