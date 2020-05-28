@@ -8,14 +8,12 @@ import {
   LineMarkSeries,
   LineSeries,
   AreaSeries,
-  DiscreteColorLegendItem,
 } from "react-vis";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
-import { formatDate } from "../../utils/dateUtils";
 import "../../../node_modules/react-vis/dist/style.css";
 
 export default function AreaChartElevated({ areaData, lineData }) {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const sysLine = [];
   const diaLine = [];
   if (areaData) {
