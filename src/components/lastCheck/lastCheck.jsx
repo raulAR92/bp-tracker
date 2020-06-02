@@ -17,7 +17,7 @@ const LastCheck = ({ systolic, diastolic, pulse }) => {
           theme={categoryThemes[systolicStatus]}
         ></Parameter>
         <Parameter
-          value={systolic}
+          value={diastolic}
           type="Diastolica"
           theme={categoryThemes[diastolicStatus]}
         ></Parameter>

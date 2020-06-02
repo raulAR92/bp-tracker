@@ -1,0 +1,133 @@
+.ui-bpt-banner {
+  background-color: #f1f1f1;
+
+  .message-container {
+    width: 60%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    .text {
+      position: relative;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
+
+  .bg_svg.animated {
+    height: 35vh;
+    background: url("./banner.svg") no-repeat;
+    background-position: 50% 109%;
+    background-size: 120vw;
+  }
+
+  .bg_svg.content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .message-container {
+      width: 50%;
+      color: white;
+    }
+    .person {
+      width: 50%;
+      height: 75%;
+      background-color: black;
+
+      &.s1 {
+        background: url("./s1.svg");
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+      }
+
+      &.s2 {
+        background: url("./s2.svg");
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+      }
+
+      &.s3 {
+        background: url("./s3.svg");
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+      }
+
+      &.s4 {
+        background: url("./s4.svg");
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+      }
+
+      &.s5 {
+        background: url("./s5.svg");
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+      }
+
+      .MuiIconButton-root {
+        color: white !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 415px) {
+  .ui-bpt-banner {
+    background-color: #f1f1f1;
+
+    .bg_svg.content {
+      height: 270px;
+    }
+
+    .bg_svg.animated {
+      height: 270px;
+      background: url("./banner_small.svg") no-repeat;
+      background-position: 50%;
+    }
+
+    .person {
+      width: 50%;
+      height: 75%;
+      background-color: black;
+    }
+
+    .message-container {
+      width: 60%;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: x-large;
+      .text {
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+@media (orientation: landscape) {
+  @media (max-width: 896px) {
+    .bg_svg {
+      height: 80vh !important;
+    }
+  }
+}
+
+@media (min-width: 896px) {
+  .bg_svg {
+    height: 50vh !important;
+  }
+}

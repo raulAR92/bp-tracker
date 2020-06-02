@@ -15,7 +15,7 @@ const ListMenu = ({ lists, handleToggle, currentRute }) => {
     >
       {lists &&
         lists.map((list, i) => (
-          <React.Fragment>
+          <React.Fragment key={i}>
             <List key={i}>
               {list.listElements &&
                 list.listElements.map((listElement, index) => (
