@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Home from "./home";
 import { makeStyles } from "@material-ui/core/styles";
 
 export default {
-  title: "Pages",
+  title: "Pages/Home",
   component: Home,
 };
 

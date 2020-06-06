@@ -9,7 +9,7 @@ export default {
 
 const menuButton = {
   icon: <MenuIcon></MenuIcon>,
-  handleClick: () => alert("clicked"),
+  handleClick: () => {},
 };
 
 export const banner = () => (

@@ -1,0 +1,25 @@
+.ui-bpn-top_nav {
+  background: linear-gradient(
+    151.94deg,
+    #03045e 11.63%,
+    rgba(0, 119, 182, 0.88) 90.61%
+  );
+
+  .font {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .MuiButtonBase-root:focus {
+    outline: 0;
+  }
+}
+
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background: linear-gradient(
+    151.94deg,
+    #03045e 11.63%,
+    rgba(0, 119, 182, 0.88) 90.61%
+  ) !important;
+  font-family: "Poppins", sans-serif;
+}
