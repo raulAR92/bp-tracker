@@ -24,7 +24,7 @@ const formatMessage = (from, to) => {
 
 const valueTo = moment();
 let valueFrom = moment();
-valueFrom.subtract(5, "d");
+valueFrom.subtract(7, "d");
 
 const Graph = () => {
   const data = getData();
