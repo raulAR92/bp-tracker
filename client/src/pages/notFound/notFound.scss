@@ -1,0 +1,26 @@
+.ui-bpt-not_found {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+
+  .person-image {
+    background-image: url("./sitting-1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 50vh;
+    width: 60vw;
+  }
+  .error {
+    .code {
+      font-size: 25vw;
+      font-family: "Titan One", cursive;
+      line-height: 22vw;
+    }
+    .message {
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      font-size: x-large;
+    }
+  }
+}

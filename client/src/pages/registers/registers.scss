@@ -1,0 +1,12 @@
+.ui-bpt-button {
+  background: linear-gradient(97.12deg, #071a6e -22.1%, #1b7cb6 126.82%);
+  border-radius: 20px !important;
+  margin-bottom: 3vh !important;
+  span {
+    color: white;
+  }
+}
+
+.ui-bpt-button:disabled {
+  background: linear-gradient(90deg, #757575 -48.4%, #cccccc 159.57%);
+}
